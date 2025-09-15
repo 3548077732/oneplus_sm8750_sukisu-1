@@ -73,8 +73,8 @@ jobs:
 
       - name: Configure Git
         run: |
-         git config --global user.name ${{ github.actor }}
-         git config --global user.email ${{ secrets.USER_EMAIL }}
+         git config --global user.name "3548077732"
+         git config --global user.email "3548077732@qq.com"
 
       - name: Install dependencies
         run: sudo apt update && sudo apt install -y python3 git curl ccache zip libelf-dev
